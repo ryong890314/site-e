@@ -682,13 +682,13 @@ img, fieldset {
 	}
 	#gnb .sub_ul {
 		display: block;
-		background-color: unset;
+		background-color: transparent;
 	}
 	#gnb .main_ul > li > a:after {
 		display: none;
 	}
 	#gnb .sub_ul > li:hover {
-		background-color: unset;
+		background-color: transparent;
 	}
 	#gnb .sub_ul > li:hover > a {
 		color: #e30000;
