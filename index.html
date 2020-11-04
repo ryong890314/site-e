@@ -110,27 +110,6 @@
 									</a>
 								</div>
 							</div>
-							<!-- <div class="slogan">
-								<div class="box">
-									<h1>Company</h1>
-									<h2>기계 개발 및 제조 전문</h2>
-									<p>친환경적이고 우수한 품질의 제품을 설계,<br>개발 및 생산하는 기계 전문 제조업체입니다.</p>
-									<div class="button">
-										<a href="#">회사소개 바로가기</a>
-									</div>
-
-									<div class="arrowSlider">
-										
-									</div>
-									
-									<div class="paging_box">
-										<span class="current_page"></span>
-										<span class="slash">/</span>
-										<span class="total_page"></span>
-									</div>
-								</div>
-								
-							</div> -->
 						</div>
 
 						<div class="content_box limit">
@@ -187,22 +166,6 @@
 								<a href="#">더보기</a>
 							</div>
 						</div>
-
-						<!-- <div class="content_box limit">
-							<div class="cb1_box">
-								<div class="cb1_img" >
-									<div class="square1"></div>
-									<div class="square2"></div>
-									<div class="square3"></div>
-								</div>
-								<div class="cb1_text">
-									<h1>Company에 방문해 주셔서<br>감사합니다.</h1>
-									<p>
-										Company는 친환경적이고 우수한 품질의 제품을 설계 개발 및 생산하는 기계 전문 제조업체입니다.</p>
-										<p>신기술, 신공법으로 기존의 틀을 바꾸는 새로운 도전을 합니다.<br>제조 전반에 걸쳐 자동화 기술을 도입함으로써 친환경적이고 최고의 품질을 자랑합니다.</p>
-								</div>
-							</div>
-						</div> -->
 
 						<div class="content_box limit">
 
@@ -368,8 +331,6 @@
 		
 	</footer>
 
-
-
 	<!-- // footer 영역 -->
 	
 </div>
@@ -389,31 +350,37 @@ $('.slick_main').on('init reInit afterChange', function (event, slick, currentSl
 });
 
 $('.slick_main').slick({
-	// infinite: false,
 	autoplay: true,
 	slidesToShow: 3,
 	dots: true,
 	arrows: false,
-	// centerMode: true,
-	// centerPadding: '300px',
-	// adaptiveHeight: true,
-	// variableWidth: true
-// 		dots: true,
-// 		infinite: false,
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-//   arrows: false,
-//   autoplay: true,
-//   dots: true,
-//   autoplaySpeed: 4000,
-//   responsive: [
-// 					{  
-// 						breakpoint: 768,
-// 						settings: {
-// 							slidesToShow: 1
-// 						} 
-// 					}
-// 				],
+	// infinite: false,
+	//	centerMode: true,
+	//	centerPadding: '300px',
+	//	adaptiveHeight: true,
+	//	variableWidth: true
+	// 	dots: true,
+	// 	infinite: false,
+	//  slidesToShow: 1,
+	//  slidesToScroll: 1,
+	//  arrows: false,
+	//  autoplay: true,
+	//  dots: true,
+	//  autoplaySpeed: 4000,
+	responsive: [
+					{  
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 2
+						} 
+					},
+					{  
+						breakpoint: 481,
+						settings: {
+							slidesToShow: 1
+						} 
+					}
+				],
 });
 </script>
 	
