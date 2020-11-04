@@ -91,6 +91,7 @@ img, fieldset {
 	display: inline-block;
 	border-bottom: 1px solid #eee;
 	width: 100%;
+	max-width: 1920px;
 	height: 120px;
 	z-index: 100;
 }
